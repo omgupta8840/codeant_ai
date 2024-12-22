@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Song+Myung&display=swap");
+@import url("https://fonts.cdnfonts.com/css/satoshi");
+
+* {
+  font-family: "Inter";
+}
+
+.shadow {
+  box-shadow: 0px 0px 24px 0px #08173529;
+}
+
+.box-shadow {
+  box-shadow: 0px 1px 2px 0px #0a0d120d;
+}
+
+.company-name {
+  font-family: "Satoshi", sans-serif;
+}
+
+.tabs[data-state="active"] {
+  background-color: #1570ef;
+  color: white;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.tabs {
+  font-weight: 600;
+  color: #414651;
+}
+
+.home-shadow {
+  box-shadow: 0px 1px 2px 0px #0a0d120d;
+}
+
+.home-btn {
+  border: 1px solid #d5d7da;
+  box-shadow: 0px 1px 2px 0px #0a0d120d;
+  box-shadow: 0px -2px 0px 0px #0a0d120d inset;
+  box-shadow: 0px 0px 0px 1px #0a0d122e inset;
+  border-radius: 8px;
+  padding: 7px 10px;
+}
+
+@media screen and (min-width:768px){
+  .home-btn{
+    padding: 8px 20px;
+  }
+}

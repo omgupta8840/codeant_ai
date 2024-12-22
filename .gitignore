@@ -1,0 +1,45 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Dependency directories
+node_modules/
+
+# Production build output
+dist/
+dist-ssr/
+
+# Local environment settings
+.env
+.env.local
+.env.*.local
+
+# Editor directories and files
+.vscode/
+!.vscode/extensions.json
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# MacOS system files
+Thumbs.db
+*.DS_Store
+
+# Windows system files
+*.lnk
+
+# Temp files
+*.tmp
+*.temp
+*.swp
+
+# Debug files
+debug/
+
+# npm lockfile
+package-lock.json
