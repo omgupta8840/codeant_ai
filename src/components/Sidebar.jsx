@@ -62,8 +62,8 @@ export default function SidebarLayout({ children, onUsernameChange }) {
     },
     
     {
-      value: "Ayush891f",
-      label: "Ayush Gupta",
+      value: "omgupta8840",
+      label: "Om Gupta",
     },
    
   ];
